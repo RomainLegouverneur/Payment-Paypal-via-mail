@@ -1,0 +1,15 @@
+ Description:
+	This class is a kind of Hack of Paypal Request Money, because there is no such API available.
+	
+ @author Legouverneur Romain
+ roamin@xstyled.net
+ 
+
+ * Pre-Requisites
+     * 1. Install OpenSSL on your Web Server
+         *  It can be enabled by uncommenting ';' from php.ini file
+     * 2. Obtain Cert ID
+         * 2.a. Obtain PayPal Cert File
+         * 2.b. Generate PayPal Public File
+         * 2.c. Generate PayPal Private File
+     * 3. This service will only be running on those Web-Servers, where Email is enabled
